@@ -25,7 +25,7 @@ DOM have at least one combination of parents, siblings, and children to rely
 ![picture of DOM elements](http://i.imgur.com/yLovB8Z.png)
 
 The following is a brief list of common APIs in web and XML page scripting using the DOM.
-```	* document.getElementById(id)
+	* document.getElementById(id)
 	* element.getElementsByTagName(name)
 	* document.createElement(name)
 	* parentNode.appendChild(node)
@@ -37,4 +37,3 @@ The following is a brief list of common APIs in web and XML page scripting using
 	* window.content
 	* window.onload
 	* window.scrollTo
-```
