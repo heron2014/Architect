@@ -46,15 +46,19 @@ Avoid using IDs like "column-right" or "column-left", that become redundant if y
 Use the most specific selector wherever possible, especially classes and IDs if available. This makes your code more readable and speeds up loading times.
 
 "Descendent selectors" can slow down your code significantly. They look like this:
-div p {
+
+```div p {
   ⋮ declarations
-}
+}```
+
 Since CSS selectors are read right to left, using code like this is an expensive process. In this instance, the browser will first search the entire document for all instances of "p" before finding "div p".
 
 Don't do this! Instead, use a specific class or ID, or use a "child selector". Child selectors look like this:
-div > p {
+
+```div > p {
   ⋮ declarations
-}
+}```
+
 The '>' indicates that the browser should first search for "div" before centring in on "div p" (a more efficient way of sorting through the code).
 
 ###9. Combine CSS properties for multiple elements
