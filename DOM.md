@@ -20,9 +20,13 @@ Before you can find elements and do awesome things with them, you need to first 
 
 At the top of the DOM tree are window and document objects which are global properties.
 The window object represents something like the browser, and the document object is the root of the document.
-DOM have at least one combination of parents, siblings, and children to rely on.
+DOM have at least one combination of parents, siblings, and children to rely on. To visualize this, take a look at the row containing the div and script elements in the following diagram:
 
 ![picture of DOM elements](http://i.imgur.com/yLovB8Z.png)
+
+Both the div and script elements are siblings. The reason they are siblings is because they share the body element as their parent. The script element has no children, but the div element does. The img, h1, p, and div are children of the div element, and all children of the same parent are siblings as well. 
+
+
 
 The following is a brief list of common APIs in web and XML page scripting using the DOM.
 * document.getElementById(id)
