@@ -2,7 +2,7 @@
 <html>
   <body>
     <h1> Tersty </h1>
-    <div style="font-size:30px;" id="count">0</div>
+    <div style="font-size:50px;text-align:center;" id="count">0</div>
 
    
 <script type="text/javascript">
@@ -14,8 +14,8 @@ function insertPic(){
   var element = document.createElement('img');
   var counter = document.getElementById('count');
   console.log(element);
-  element.src = 'grumpycat.jpg?v=' + i++;
-  counter.innerHTML= i;
+  element.src = 'grumpycat.jpg';
+  counter.innerHTML= i++;
   element.onload = function (){ insertPic() };
 
   document.body.appendChild(element);
