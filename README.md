@@ -1,6 +1,6 @@
 # Architect
 
-Information and best practices for structuring your CSS and Javascript files, and manipulating the DOM for maximum efficiency.
+Information on file structure and best practices, covering CSS, Javascript and the DOM.
 
 ####Table of Contents
 
