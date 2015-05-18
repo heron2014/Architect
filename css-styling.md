@@ -1,5 +1,22 @@
 #CSS Best Practices
 
+####Table of contents
+1. [Be consistent](https://github.com/heron2014/Architect/blob/master/css-styling.md#1-be-consistent)
+2. [Use an external stylesheet] (https://github.com/heron2014/Architect/blob/master/css-styling.md#2-use-an-external-stylesheet)
+3. [Use multiple stylesheets](https://github.com/heron2014/Architect/blob/master/css-styling.md#3-use-multiple-stylesheets)
+4. [Create a master stylesheet](https://github.com/heron2014/Architect/blob/master/css-styling.md#4-create-a-master-stylesheet)
+5. [Create your HTML document first](https://github.com/heron2014/Architect/blob/master/css-styling.md#5-create-your-html-document-first)
+6. [Organise documents with a top-down structure](https://github.com/heron2014/Architect/blob/master/css-styling.md#6-organise-documents-with-a-top-down-structure)
+7. [Name your classes and IDs sensibly](https://github.com/heron2014/Architect/blob/master/css-styling.md#7-name-your-classes-and-ids-sensibly)
+8. [Be as specific as possible with selectors](https://github.com/heron2014/Architect/blob/master/css-styling.md#8-be-as-specific-as-possible-with-selectors)
+9. [Combine CSS properties for multiple elements](https://github.com/heron2014/Architect/blob/master/css-styling.md#9-combine-css-properties-for-multiple-elements)
+10. [Use shorthand CSS properties](https://github.com/heron2014/Architect/blob/master/css-styling.md#10-use-shorthand-css-properties)
+11. [Alphabetise your properties](https://github.com/heron2014/Architect/blob/master/css-styling.md#11-alphabetise-your-properties)
+12. [Add comments to your CSS](https://github.com/heron2014/Architect/blob/master/css-styling.md#12-add-comments-to-your-css)
+13. [Keep a Class and Colour Reference](https://github.com/heron2014/Architect/blob/master/css-styling.md#13-keep-a-class-and-colour-reference)
+14. [Run code through a CSS validator](https://github.com/heron2014/Architect/blob/master/css-styling.md#14-run-code-through-a-css-validator)
+15. [Run code through google page speed](https://github.com/heron2014/Architect/blob/master/css-styling.md#15-run-code-through-google-page-speed)
+
 ###1. Be consistent
 
 CSS "best practices" are a matter of opinion, and everyone tends to establish their own guidelines. It is most important to be consistent: within your own code, and across a group, project or organisation. Consistent styling makes code more readable for yourself and others.
