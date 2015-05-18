@@ -47,17 +47,21 @@ Use the most specific selector wherever possible, especially classes and IDs if 
 
 "Descendent selectors" can slow down your code significantly. They look like this:
 
-```div p {
+```
+div p {
   ⋮ declarations
-}```
+}
+```
 
 Since CSS selectors are read right to left, using code like this is an expensive process. In this instance, the browser will first search the entire document for all instances of "p" before finding "div p".
 
 Don't do this! Instead, use a specific class or ID, or use a "child selector". Child selectors look like this:
 
-```div > p {
+```
+div > p {
   ⋮ declarations
-}```
+}
+```
 
 The '>' indicates that the browser should first search for "div" before centring in on "div p" (a more efficient way of sorting through the code).
 
@@ -68,17 +72,20 @@ If you find yourself adding the same style properties to multiple selectors, com
 ###10. Use shorthand CSS properties
 
 Instead of:
+```
 h1 {
   margin-top : 5px;
   margin-left : 10px;
   margin-bottom : 15px; 
   margin-right : 20px;
 }
-
+```
 use:
+```
 h1 {
    margin : 5px, 10px, 15px, 20px; // top, right, bottom and left values
  }
+ ```
 Comprehensive guide to CSS shorthand here:
 http://www.dustindiaz.com/css-shorthand/ 
 
@@ -88,6 +95,7 @@ http://www.dustindiaz.com/css-shorthand/
 Organising your properties in alphabetical order within selectors makes them easier to read and find.
 
 For example:
+```
 .some-class{
   color: #fff;
   float: left;
@@ -96,6 +104,7 @@ For example:
   padding: 0;
   width: 150px;
 }
+```
 
 ###12. Add comments to your CSS
 
