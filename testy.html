@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+  <body>
+    <h1> Tersty </h1>
+   
+<script type="text/javascript">
+insertPic();
+var i = 0;
+
+function insertPic(){
+  
+  var element = document.createElement('img');
+  console.log(element);
+  element.src = 'derp.jpg?v=' + i++;
+
+  element.onload = function (){ insertPic() };
+
+  document.body.appendChild(element);
+  
+  };
+</script>
+  </body>
+</html>
