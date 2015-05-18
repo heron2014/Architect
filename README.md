@@ -1,4 +1,4 @@
-# Architect
+# Architecture: Structuring Your Code
 
 Information on file structure and best practices, covering CSS, Javascript and the DOM.
 
