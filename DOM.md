@@ -27,13 +27,13 @@ DOM have at least one combination of parents, siblings, and children to rely
 The following is a brief list of common APIs in web and XML page scripting using the DOM.
 * document.getElementById(id)
 * element.getElementsByTagName(name)
-	* document.createElement(name)
-	* parentNode.appendChild(node)
-	* element.innerHTML
-	* element.style.left
-	* element.setAttribute
-	* element.getAttribute
-	* element.addEventListener
-	* window.content
-	* window.onload
-	* window.scrollTo
+* document.createElement(name)
+* parentNode.appendChild(node)
+* element.innerHTML
+* element.style.left
+* element.setAttribute
+* element.getAttribute
+* element.addEventListener
+* window.content
+* window.onload
+* window.scrollTo
