@@ -20,5 +20,7 @@ Before you can find elements and do awesome things with them, you need to first 
 
 At the top of the DOM tree are window and document objects which are global properties.
 The window object represents something like the browser, and the document object is the root of the document.
+DOM have at least one combination of parents, siblings, and children to rely on.
 
 ![picture of DOM elements](http://i.imgur.com/yLovB8Z.png)
+
