@@ -2,19 +2,19 @@
 
 The Document Object Model (DOM) is a programming interface for HTML and XML document.
 In other words any Web page is a document, which can be displayed in the browser window or as a HTML,source code. The Document Object Model provides another way to represent, store and manipulate that same document.
-DOM is rendered in a browser. 
+DOM is rendered in a browser.
 
-![DevTool with DOM rendered](http://i.imgur.com/EX1EQ8p.jpg)
-
-
-DOM looks like a giant tree, the elements in DOM are arranged in a hierarchy that defines what you eventually see in the browser.
+DOM looks like a giant tree, the elements in DOM are arranged in a hierarchy that defines what you eventually see in the browser. 
 
 ![DOM elements](http://i.imgur.com/VA7Shfj.png)
 
 This hierarchy is used to help organize your HTML elements. It is also used to help your CSS style rules make sense of what styles to apply on which elements. 
 From the JavaScript angle, this hierarchy helps to manipulate the DOM.
 
-##Finding Your Way Around
+![DevTool with DOM rendered](http://i.imgur.com/EX1EQ8p.jpg)
+
+
+##Finding your way around
 
 Before you can find elements and do awesome things with them, you need to first get to where the elements are. The easiest way to tackle this topic is to just start form the top and slide all the way down.
 
